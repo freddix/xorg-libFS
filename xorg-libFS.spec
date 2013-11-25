@@ -1,7 +1,7 @@
 Summary:	FS library
 Name:		xorg-libFS
 Version:	1.0.5
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/lib/libFS-%{version}.tar.bz2
@@ -67,7 +67,6 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libFS.so
-%{_libdir}/libFS.la
 %{_includedir}/X11/fonts/*.h
 %{_pkgconfigdir}/libfs.pc
 
